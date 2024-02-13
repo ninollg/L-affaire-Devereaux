@@ -1,1 +1,50 @@
+# Ignore les fichiers générés par Unity
+Library/
+Temp/
+obj/
+*.log
+*.memo
+*.stackdump
+
+# Ignore les fichiers générés par Visual Studio
+.vs/
+*.userprefs
+*.suo
+*.sln*
+*.csproj*
+*.unityproj
+
+# Ignore les fichiers de sauvegarde
+*~
+*.bak
+*.swp
+*.tmp
+
+# Ignorer les fichiers de compilation
+*.dll
+*.pdb
+*.meta
+
+# Ignorer les fichiers de build et de jeu
+Build/
+Builds/
+*.apk
 *.unitypackage
+
+# Ignorer les fichiers de cache et temporaires
+*.cache
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers d'installation de packages
+*.gz
+*.tgz
+*.zip
+
+# Ignorer les fichiers de journalisation
+*.old
+*.log
+
+# Ignorer les fichiers d'exportation
+*.exported.*
